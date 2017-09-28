@@ -12,7 +12,7 @@ export default class FullExpansionRow extends React.Component {
           <TimelineIcon onClick={() => toggleExpansion(piece.id)} src={piece.src} />
         }
       >
-        <img src={piece.src} />
+        <img src={piece.src} style={{maxWidth: '100%'}}/>
         <h2>{piece.title}</h2>
         <h3>{piece.date}</h3>
         <div>Medium: {piece.medium}</div>
