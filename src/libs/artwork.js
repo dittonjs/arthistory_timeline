@@ -1,7 +1,10 @@
 let id = 1;
+
 const mediums = [
   "Wall Painting",
   "Stone Statue",
+  "Wood",
+  "Building"
 ]
 
 export default [
@@ -70,6 +73,71 @@ export default [
     src: "http://www.britishmuseum.org/collectionimages/AN00527/AN00527913_001_l.jpg?width=304",
     expanded: false,
   },
+  {
+    id: id++,
+    title: "Mask of Warka",
+    date: "~ 3000 BCE",
+    metadate: -3000,
+    dimensions: "20 cm",
+    location: "National Museum of Iraq",
+    medium: mediums[1],
+    artist: "Unknown",
+    description: `The Mask of Warka is unique in that it is the first accurate depiction of the human face. Previous attempts, like the Tell Brak Head were not anatomically accurate, and featured exaggerated noses and ears. At 21.2 centimetres (8.3 in) tall, the mask was most likely originally part of a whole, life sized statue, probably made of wood, with the exposed areas of "skin" (arms, hands, feet, and most obviously the head) being the only ones made of the much rarer white marble. The back of the head would have been enhanced with bitumen and then colored metal — most likely either gold leaf or copper. This combination would have then extended over the forehead in waves. This hairpiece would have been attached to the Mask with metal studs, which could possibly have been engraved. The hollowed out eyes and eyebrows bear traces of an ancient inlay, perhaps shell and lapis lazuli. Perforations at the ears indicate that the image once wore jewelry. Parts of the eyebrows and hair were also emphasized with colored inlays.`,
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/UrukHead.jpg/220px-UrukHead.jpg",
+    expanded: false,
+  },
+  {
+    id: id++,
+    title: "Standard of Ur",
+    date: "~ 2500 BCE",
+    metadate: -2500,
+    dimensions: "Height: 21.7 centimetres Length: 50.4 centimetres",
+    location: "British Museum",
+    medium: mediums[1],
+    artist: "Unknown",
+    description: `"The Standard of Ur", decorated on four sides with inlaid mosaic scenes made from shell, red limestone and lapis lazuli, set in bitumen. One side shows a war scene; a Sumerian army with wheeled waggons and infantry charges the enemy; prisoners are brought before a larger individual, who is accompanied by guards and has his own waggon waiting behind him. The reverse shows scenes of men are bringing animals, fish etc, possibly as booty or tribute; at the top the same large individual banquets with other men; they are entertained at the right by a singer and a man playing a lyre. The triangular end panels show other scenes; the object was found crushed but has since been restored, and samples retained.`,
+    src: "http://www.britishmuseum.org/collectionimages/AN00012/AN00012550_001_l.jpg",
+    expanded: false,
+  },
+  {
+    id: id++,
+    title: "Ziggurat and White Temple",
+    date: "~ 3500 BCE",
+    metadate: -3500,
+    dimensions: "A large temple",
+    location: "Uruk (Iraq)",
+    medium: mediums[3],
+    artist: "Unknown",
+    description: `Uruk (modern Warka in Iraq)—where city life began more than five thousand years ago and where the first writing emerged—was clearly one of the most important places in southern Mesopotamia. Within Uruk, the greatest monument was the Anu Ziggurat on which the White Temple was built. Dating to the late 4th millennium B.C.E. (the Late Uruk Period, or Uruk III) and dedicated to the sky god Anu, this temple would have towered well above (approximately 40 feet) the flat plain of Uruk, and been visible from a great distance—even over the defensive walls of the city.`,
+    src: "https://ka-perseus-images.s3.amazonaws.com/ae381cd2defdd955a5284dd0c7a8b8bf66150822.jpg",
+    expanded: false,
+  },
+  {
+    id: id++,
+    title: "Statue of Gudea",
+    date: "~ 2090 BCE",
+    metadate: -2090,
+    dimensions: "17 3/8 x 8 1/2 x 11 5/8 in",
+    location: "The MET",
+    medium: mediums[1],
+    artist: "Unknown",
+    description: `This sculpture belongs to a series of diorite statues commissioned by Gudea, who devoted his energies to rebuilding the great temples of Lagash and installing statues of himself in them. Many inscribed with his name and divine dedications survive. Here, Gudea is depicted in the seated pose of a ruler before his subjects, his hands folded in a traditional gesture of greeting and prayer. The Sumerian inscription on his robe lists the various temples that he built or renovated in Lagash and names the statue itself, "Gudea, the man who built the temple; may his life be long." `,
+    src: "http://www.metmuseum.org/toah/images/hb/hb_59.2.jpg",
+    expanded: false,
+  },
+  {
+    id: id++,
+    title: "Victory Stele of Naram-Sim",
+    date: "2254 - 2218 BCE",
+    metadate: -2254,
+    dimensions: "4' tall",
+    location: "Louvre, France",
+    medium: mediums[1],
+    artist: "Unknown",
+    description: `Victory Stele of Naram-Sin, Akkadian, pink limestone, 2254-2218 B.C.E. (Louvre, Paris) This monument depicts the Akkadian victory over the Lullubi Mountain people. In the 12th century B.C.E., 1,000 years after it was originally made, the Elamite king, Shutruk-Nahhunte, attacked Babylon and, according to his later inscription, the stele was taken to Susa in what is now Iran. A stele is a vertical stone monument or marker often inscribed with text or relief carving. Speakers: Dr. Beth Harris and Dr. Steven Zucker. Created by Beth Harris, Steven Zucker. `,
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Victory_stele_of_Naram-Sin_of_Akkad-Sb_4-IMG_0556-black.jpg/800px-Victory_stele_of_Naram-Sin_of_Akkad-Sb_4-IMG_0556-black.jpg",
+    expanded: false,
+  }
 ]
 
 

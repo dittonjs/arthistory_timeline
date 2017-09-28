@@ -17,7 +17,7 @@ export default class FullExpansionRow extends React.Component {
         <h3>{piece.date}</h3>
         <div>Medium: {piece.medium}</div>
         <div>Artist: {piece.artist}</div>
-        <div>Dimensions: {piece.dimension}</div>
+        <div>Dimensions: {piece.dimensions}</div>
         <hr />
         <div>
           {piece.description}
